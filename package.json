@@ -1,0 +1,27 @@
+{
+  "name": "ai-itinerary-generator-enhanced",
+  "version": "1.0.0",
+  "description": "AI-powered travel itinerary generator with advanced error handling and validation",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "wrangler": "^4.26.1"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "ai",
+    "travel",
+    "itinerary",
+    "firebase",
+    "zod",
+    "validation"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

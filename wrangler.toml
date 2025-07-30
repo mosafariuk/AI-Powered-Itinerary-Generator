@@ -1,0 +1,13 @@
+name = "ai-itinerary-generator"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Environment variables (add these via Wrangler CLI or Cloudflare dashboard)
+# wrangler secret put OPENAI_API_KEY
+# wrangler secret put FIREBASE_SERVICE_ACCOUNT_KEY
+
+[vars]
+# Public environment variables can go here if needed
+
+# Web Crypto API is available by default in Cloudflare Workers
